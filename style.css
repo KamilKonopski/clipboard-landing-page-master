@@ -1,0 +1,73 @@
+:root {
+    --strongCyan: hsl(171, 66%, 44%);
+    --lightBlue: hsl(233, 100%, 69%);
+    --darkGrayishBlue: hsl(210, 10%, 33%);
+    --grayishBlue: hsl(201, 11%, 66%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.header {
+    align-items: center;
+    background: url('./images/bg-header-desktop.png');
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__text h1 {
+    align-items: center;
+    color: var(--darkGrayishBlue);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.hero__text p {
+    color: var(--grayishBlue);
+    font-size: 18px;
+    line-height: 150%;
+    margin: 20px 15px 40px;
+    text-align: center;
+}
+
+.hero__button {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__button button {
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 25px 20px;
+    padding: 15px 25px;
+}
+
+.hero__button--ios {
+    background-color: var(--strongCyan);
+    box-shadow: inset 0 -9px 24px -5px var(--strongCyan);
+}
+
+.hero__button--mac {
+    background-color: var(--lightBlue);
+    box-shadow: inset 0 -9px 24px -5px var(--lightBlue);
+}
