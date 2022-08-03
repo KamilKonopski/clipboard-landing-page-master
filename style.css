@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
 }
 
+/* header section start */
 .header {
     align-items: center;
     background: url('./images/bg-header-mobile.png');
@@ -28,6 +29,9 @@ body {
     width: 100%;
 }
 
+/* header section end */
+
+/* hero section start */
 .hero {
     display: flex;
     flex-direction: column;
@@ -39,6 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 30px;
+    font-weight: 600;
 }
 
 .hero__text p {
@@ -72,4 +77,235 @@ body {
 .hero__button--mac {
     background-color: var(--lightBlue);
     box-shadow: inset 0 -9px 24px -5px var(--lightBlue);
+}
+
+/* hero section end */
+
+/* snippets section start */
+.snippets__text {
+    color: var(--grayishBlue);
+    margin: 120px 20px 30px;
+    text-align: center;
+}
+
+.snippets__text h2 {
+    color: var(--darkGrayishBlue);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.snippets__snippet-img {
+    margin: 60px auto;
+    width: 90%;
+}
+
+.snippets__snippet-img img {
+    width: 100%;
+}
+
+.snippets__snippet-text {
+    text-align: center;
+    margin: 0 20px 180px;
+}
+
+.snippets__snippet-text h3 {
+    color: var(--darkGrayishBlue);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.snippets__snippet-text p {
+    color: var(--grayishBlue);
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+/* snippets section end */
+
+/* access section start */
+.access__text {
+    margin: 0 15px 40px;
+    text-align: center;
+}
+
+.access__text h2 {
+    color: var(--darkGrayishBlue);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.access__text p {
+    color: var(--grayishBlue);
+    line-height: 150%;
+}
+
+.access__img {
+    margin: 0 auto;
+    margin-bottom: 120px;
+    width: 90%;
+}
+
+.access__img img {
+    width: 100%;
+}
+
+/* access section end */
+
+/* tools section start */
+.tools__text {
+    margin: 0 15px 40px;
+    text-align: center;
+}
+
+.tools__text h2 {
+    color: var(--darkGrayishBlue);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.tools__text p {
+    color: var(--grayishBlue);
+    line-height: 150%;
+    margin-bottom: 90px;
+}
+
+.tools__tool img {
+    margin-bottom: 35px;
+}
+
+.tools__tool h3 {
+    color: var(--darkGrayishBlue);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.tools__tool p {
+    color: var(--grayishBlue);
+    line-height: 150%;
+}
+
+/* tools section end */
+
+/* firms section start */
+.firms {
+    margin-top: 180px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firms .firm {
+    margin-bottom: 50px;
+}
+
+/* firms section end */
+
+/* clipboard section start */
+.clipboard {
+    margin-bottom: 120px;
+}
+
+.clipboard__text {
+    margin: 0 30px 40px;
+    text-align: center;
+}
+
+.clipboard__text h2 {
+    color: var(--darkGrayishBlue);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.clipboard__text p {
+    color: var(--grayishBlue);
+    line-height: 150%;
+    margin-bottom: 60px;
+}
+
+.clipboard__button {
+    display: flex;
+    flex-direction: column;
+}
+
+.clipboard__button button {
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 25px 20px;
+    padding: 15px 25px;
+}
+
+.clipboard__button--ios {
+    background-color: var(--strongCyan);
+    box-shadow: inset 0 -9px 24px -5px var(--strongCyan);
+}
+
+.clipboard__button--mac {
+    background-color: var(--lightBlue);
+    box-shadow: inset 0 -9px 24px -5px var(--lightBlue);
+}
+
+/* clipboard section end */
+
+/* footer section start */
+
+.footer {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    margin: 50px 0;
+    width: 15%;
+}
+
+.footer__logo img {
+    width: 100%;
+}
+
+.footer__links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    color: var(--grayishBlue);
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.footer__links a:hover {
+    color: var(--strongCyan);
+}
+
+.footer__socials img {
+    margin: 35px 15px;
+}
+
+.footer__socials img:hover {
+    filter: invert(59%) sepia(15%) saturate(1554%) hue-rotate(121deg) brightness(93%) contrast(86%);
+}
+
+/* footer section end */
+
+.attribution {
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--strongCyan);
+    text-decoration: none;
 }
