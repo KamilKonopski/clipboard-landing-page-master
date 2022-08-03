@@ -101,5 +101,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [konopski-tsi.pl](https://www.konopski-tsi.pl)
-- Frontend Mentor - [@ykamilkonopski](https://www.frontendmentor.io/profile/kamilkonopski)
+- Frontend Mentor - [@ykamilkonopski](https://www.frontendmentor.io/profile/KamilKonopski)
 - Twitter - [@maers\_\_](https://www.twitter.com/maers__)
