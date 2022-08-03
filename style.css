@@ -19,7 +19,9 @@ body {
 
 .header {
     align-items: center;
-    background: url('./images/bg-header-desktop.png');
+    background: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     height: 40vh;
