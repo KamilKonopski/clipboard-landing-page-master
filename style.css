@@ -299,6 +299,7 @@ body {
 }
 
 .footer__socials img {
+    cursor: pointer;
     margin: 35px 15px;
 }
 
@@ -418,4 +419,46 @@ body {
     }
 
     /* firms section end */
+
+    /* clipboard section start */
+    .clipboard__text p {
+        padding: 0 350px;
+    }
+
+    .clipboard__button {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .clipboard__button button {
+        padding: 15px 45px;
+    }
+
+    /* clipboard section end */
+
+    /* footer section start */
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer__logo {
+        width: 5%;
+    }
+
+    .footer__links {
+        align-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 10vh;
+        margin-top: 20px;
+    }
+
+    .footer__links a {
+        margin-right: 90px;
+    }
+
+    /* footer section end */
 }
